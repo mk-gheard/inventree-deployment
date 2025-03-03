@@ -1,7 +1,7 @@
 **Briefing Document: InvenTree Test Environment Deployment in Azure**  
 
-**Date:** [Insert Date]  
-**Prepared by:** [Your Name]  
+**Date:** 03/03/2025
+**Prepared by:** Greg Heard
 **Purpose:** To evaluate and compare two deployment approaches for the InvenTree ERP test environment in Azure: **Containerized Deployment (Azure Container Apps/AKS)** vs. **Virtual Machine (VM)-based Deployment**.
 
 ---
