@@ -8,7 +8,7 @@
 ## **1. Overview of Deployment Approaches**
 
 ### **Option 1: Containerized Deployment (Azure Container Apps or AKS)**
-- **Description:** Deploys InvenTree and its required services (PostgreSQL, Redis, etc.) as containers in Azure’s managed services.
+- **Description:** Deploys InvenTree and its required services (PostgreSQL, Redis, etc.) as containers in Azure’s managed services. 
 - **Two possible container platforms:**
   - **Azure Container Apps (ACA):** Simplified, serverless container deployment with automatic scaling.
   - **Azure Kubernetes Service (AKS):** Full Kubernetes orchestration for greater flexibility and control.
@@ -46,15 +46,15 @@
 
 | Cost Factor | Containerized Deployment (ACA/AKS) | VM Deployment |
 |------------|----------------------------------|--------------|
-| **Compute Costs** | Pay-per-use (~$50-$150/month for a test env) | Fixed (~$60-$100/month per VM) |
-| **Storage (PostgreSQL, Redis, etc.)** | Managed DB (~$30-$100/month) | Self-hosted (~$10-$30/month) |
-| **Networking** | Private Link/VPN (~$10/month) | NSG-based (minimal cost) |
-| **Estimated Total Cost** | ~$100-$250/month | ~$70-$130/month |
+| **Compute Costs** | Pay-per-use (~£40-£120/month for a test env) | Fixed (~£50-£80/month per VM) |
+| **Storage (PostgreSQL, Redis, etc.)** | Managed DB (~£25-£80/month) | Self-hosted (~£10-£25/month) |
+| **Networking** | Private Link/VPN (~£8/month) | NSG-based (minimal cost) |
+| **Estimated Total Cost** | ~£80-£200/month | ~£60-£110/month |
 
 ---
 ## **5. Recommendation & Next Steps**
 
-### **Recommended Approach:**
+### **Recommended Approach:** 
 - If ease of setup and lower admin overhead are priorities → **Containerized Deployment (Azure Container Apps preferred)**.
 - If a quick, familiar setup is required → **VM-based Deployment**.
 
